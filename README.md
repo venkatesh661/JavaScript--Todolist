@@ -1,10 +1,10 @@
-# JavaScript--Todolist
-
+# JavaScript-TodoList
+Todo-List
 # Todo List Project
 
 ## Description
 
-Todo List is my project  done by `Javascript` and `HTML`,  where users can add„ÄÅdelete and update tasks in this project.
+Todo List is my project  done by `Javascript` and `HTML`,  where users can add„ÄÅdelete and update complete and Mark them as Important  tasks in this project.
 
 
 
@@ -18,10 +18,10 @@ Todo List is my project  done by `Javascript` and `HTML`,  where users can add„Ä
 ## Features
 
 - Create(Add) and deklete tasks
-- Each Task have checkbox, checked tasks will be considered completed, tasks that are not checked will be considered pending
+- Each Task have mark as complete , when we hit ont hat button then it should  mark as completed, tasks that are not checked will be considered pending
 - User can clear all tasks
 - User can switch status button freely to view task status
-- Tasks are divided into many categories like Add Task Completed, Edit Delete, DeleteAll 
+- Tasks are divided into many categories like Add Task Completed, Edit Delete, DeleteAll , Mark as Complete , Make as Important.
 -In this one users can search the task that he wants 
 - Tasks and projects are managed with `localStorage`
 
@@ -30,7 +30,19 @@ Todo List is my project  done by `Javascript` and `HTML`,  where users can add„Ä
 
 
 
+![Todo-List Tasks](https://user-images.githubusercontent.com/120723992/226534696-a9262fec-0ab1-4c19-99a6-36b842db4f71.png)
 
 
 
--![OutputDemo png](https://user-images.githubusercontent.com/120723992/220359853-c92be19b-89e4-4a13-9db9-7e53dacde6ce.png)
+![Complete and Important  Tasks](https://user-images.githubusercontent.com/120723992/226534738-5b86f9cd-1c54-46d8-b823-2f0a5dd2a41d.png)
+
+
+
+
+
+
+
+
+
+
+-
