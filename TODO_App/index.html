@@ -1,0 +1,98 @@
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384- JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="bg-dark mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="navbar justify-content-between">
+                        <button><a class="navbar-brand"id="important">Important Todos</a></button>
+
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="searchtextbox"/>
+                        </form>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="todo-outer">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-sm-12 col-md-8">
+                    <h1 style="color:white; font-weight: bold;">Welcome To My Todo-List Application</h1>
+                    <div class="todo-inner">
+                        <div class="form-row">
+                            <div class="col-8 mr-sm-2">
+                                <input type="text" class="form-control" placeholder="Enter your task" id="addtaskinput" />
+                                <input type="hidden" id="saveindex">
+                            </div>
+                            <button type="button" class="btn btn-success mr-sm-2" id="addtaskbtn">
+                Add Task
+              </button>
+                            <button type="button" class="btn btn-success mr-sm-2" id="savetaskbtn" style="display: none;">
+                Save Task
+              </button>
+                            <button type="button" id="deleteallbtn" class="btn btn-danger">
+                Delete All
+              </button>
+                        </div>
+                        <div class="to-do-output">
+                            <table class="table table-striped mt-3 mb-0" id="addedtasklist">
+
+                            </table>
+
+                            <div class="container1">
+                                <h2 class="text-center my-3">Completed Tasks</h2>
+                                <table class="table table-striped table-bordered ">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th scope="col" class="text-white bg-secondary">Task</th>
+                                            <th scope="col" class="text-white bg-secondary">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="completedtasklist">
+                                    </tbody>
+                                </table>
+
+
+                                <!-- Important Tasks table -->
+                                <br>
+                                <h2 class="text-center my-3">Important Tasks</h2>
+                                <table class="table table-striped table-bordered mt-3">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th scope="col" class="text-white bg-secondary">Sr.NO</th>
+                                            <th scope="col" class="text-white bg-secondary">Task</th>
+                                            <th scope="col" class="text-white bg-secondary">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="importanttasklist">
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>

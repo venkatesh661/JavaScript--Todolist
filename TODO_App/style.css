@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto-Regular';
+    background: -webkit-gradient( linear, left top, right bottom, from(#af5e94), to(#5949f2)) fixed;
+}
+
+.navbar-brand {
+    padding: 4px;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    width: auto;
+    box-sizing: auto;
+    border: 1px;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    color: white;
+    height: 30vh;
+    padding: 10px;
+    padding-left: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: chartreuse;
+}
+
+#addedtasklist {
+    font-size: 20px;
+    font-weight: 10px;
+    color: aqua;
+}
+
+
+/*.form-control{
+    font-size: 50px;
+    font-weight: 100px;
+    color: blue;
+}
+*/
+
+.container1 {
+    text-align: right;
+    color: rgb(200, 255, 0)
+}
